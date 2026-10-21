@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "alancere.xxljob",
+  "publisher": "alancere",
+  "version": "1.0.4",
+  "name": "XXL-JOB",
+  "description": "XXL-JOB distributed task scheduler console inside DBX: executor groups, job management, manual trigger, start/stop, scheduling logs, GLUE source, and trigger reports.",
+  "icon": "https://raw.githubusercontent.com/Alancere/xxl-job-dbx-plugin/v1.0.4/assets/plugin.svg",
+  "tags": [
+    "xxl-job",
+    "scheduler",
+    "jobs",
+    "task-scheduler"
+  ],
+  "permissions": [
+    "host.events",
+    "host.workbench"
+  ],
+  "source": "https://github.com/Alancere/xxl-job-dbx-plugin/tree/v1.0.4",
+  "homepage": "https://github.com/Alancere/xxl-job-dbx-plugin",
+  "license": "Apache-2.0",
+  "releaseNotes": "Initial DBX Store listing: executor groups, job CRUD, manual trigger, start/stop, scheduling logs, GLUE source editing, and trigger reports for XXL-JOB Admin consoles.",
+  "localizations": {
+    "zh-CN": {
+      "name": "XXL-JOB 任务调度",
+      "description": "在 DBX 内管理 XXL-JOB 分布式任务调度：执行器分组、任务管理、手动触发、启停、调度日志、GLUE 源码与触发报表。"
+    }
+  },
+  "targets": [
+    {
+      "target": "darwin-arm64",
+      "url": "https://github.com/Alancere/xxl-job-dbx-plugin/releases/download/v1.0.4/alancere.xxljob-1.0.4-darwin-arm64.dbxp",
+      "sha256": "f19f89e2bbaef10071be27398c9fe6b3018d06ca76f69b4a70b6e3572f382882",
+      "size": 2697660
+    },
+    {
+      "target": "darwin-x64",
+      "url": "https://github.com/Alancere/xxl-job-dbx-plugin/releases/download/v1.0.4/alancere.xxljob-1.0.4-darwin-x64.dbxp",
+      "sha256": "a162d614aaf5087900c44d8e5d788bd643e887c3268d28351734926eb3fb0761",
+      "size": 2916386
+    },
+    {
+      "target": "linux-arm64",
+      "url": "https://github.com/Alancere/xxl-job-dbx-plugin/releases/download/v1.0.4/alancere.xxljob-1.0.4-linux-arm64.dbxp",
+      "sha256": "7045913a28decb1164992d655f773b00e202871e324717b1d56a451c18c26f39",
+      "size": 2616513
+    },
+    {
+      "target": "linux-x64",
+      "url": "https://github.com/Alancere/xxl-job-dbx-plugin/releases/download/v1.0.4/alancere.xxljob-1.0.4-linux-x64.dbxp",
+      "sha256": "024ee093403999ce86673fe2c6602e5f3a63c22b2fa594bd2996192e724e5adb",
+      "size": 2885029
+    },
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/Alancere/xxl-job-dbx-plugin/releases/download/v1.0.4/alancere.xxljob-1.0.4-windows-x64.dbxp",
+      "sha256": "e5557bb78f46c3f1413022c988033e8fd8b9f0bdb8c3376f23f19f7353c688a6",
+      "size": 2937015
+    }
+  ]
+}
