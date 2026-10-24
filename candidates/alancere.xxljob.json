@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "alancere.xxljob",
+  "publisher": "alancere",
+  "version": "1.0.5",
+  "releaseNotes": "Fixes the job start/stop toggle, explains unreachable executors when reading an execution log, keeps the selected report window on refresh, and ships LICENSE inside every package.",
+  "source": "https://github.com/Alancere/xxl-job-dbx-plugin/tree/v1.0.5",
+  "targets": [
+    {
+      "target": "darwin-arm64",
+      "url": "https://github.com/Alancere/xxl-job-dbx-plugin/releases/download/v1.0.5/alancere.xxljob-1.0.5-darwin-arm64.dbxp",
+      "sha256": "2ee8c6b4f99ed1427f3e99467d4822b658e0d5d47abc078cc3782e15a1dc4684",
+      "size": 2953929
+    },
+    {
+      "target": "darwin-x64",
+      "url": "https://github.com/Alancere/xxl-job-dbx-plugin/releases/download/v1.0.5/alancere.xxljob-1.0.5-darwin-x64.dbxp",
+      "sha256": "f4a49838e7f20ed225374cdc79f1a48540d688967272421654b6f1789c4168c7",
+      "size": 3195628
+    },
+    {
+      "target": "linux-arm64",
+      "url": "https://github.com/Alancere/xxl-job-dbx-plugin/releases/download/v1.0.5/alancere.xxljob-1.0.5-linux-arm64.dbxp",
+      "sha256": "9866d1104f0f63f7464e7c2ec570e98d262043f420da496aad88aca5a0ee18b0",
+      "size": 2844653
+    },
+    {
+      "target": "linux-x64",
+      "url": "https://github.com/Alancere/xxl-job-dbx-plugin/releases/download/v1.0.5/alancere.xxljob-1.0.5-linux-x64.dbxp",
+      "sha256": "dc6f56bcf912209fb1c2d16059468ebb20abc1af50e767b6763f2b5667773280",
+      "size": 3141155
+    },
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/Alancere/xxl-job-dbx-plugin/releases/download/v1.0.5/alancere.xxljob-1.0.5-windows-x64.dbxp",
+      "sha256": "94c5b2ee977b6f6f0d1dd625d5e0f65d5ad303c51aeda1633626d79e782e87c6",
+      "size": 3225608
+    }
+  ]
+}
